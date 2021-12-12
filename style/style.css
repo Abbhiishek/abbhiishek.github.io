@@ -1,0 +1,63 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+    
+}
+
+li,a,button{
+    font-family: Verdana;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+}
+header{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+.logo{
+    cursor: pointer;
+    width: 55px;
+}
+.nav-links {
+    list-style: none;
+}
+.nav-links li{
+   display: inline-block;
+   padding: 0px 20px;
+}
+.nav-links li a {
+   transition: all 0.3s ease 0s;
+   text-decoration: none;
+}
+.nav-links li a:hover {
+   color: aqua;
+}
+button{
+    padding: 9px 25px;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(0, 225, 255);
+    transition: all 0.3s ease 0s; 
+}
+button:hover{
+  background-color: rgb(0, 225, 255);
+  color: black;
+  border: 2px solid #f8f8f8; 
+}
+.homeMainLogo{
+    
+    border-color: aqua 10px;
+}
+.banner{
+    background-image:url(/assests/mainpagebgvideo.jpeg);
+    background-attachment: fixed;
+    background-position:center top ;
+    background-repeat: no-repeat;
+    background-size: 25%;
+}
