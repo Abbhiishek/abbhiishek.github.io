@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700|Roboto:300,400,500,700,900&amp;display=swap");
 
 :root {
-    --blue: #3b82f6;
+    --blue: #005ff8;
     --fontclr: #0a0a0a;
     --bgclr: #fafafa;
     --white: #fafafa;
@@ -15,7 +15,7 @@ body.dark {
 }
 
 #typedjs {
-    color: var(--fontclr);
+    color: rgb(0, 217, 255);
 }
 
 @media screen and (max-width: 1000px) {
@@ -772,9 +772,11 @@ p {
     border-color: rgb(59, 130, 246) !important;
 }
 /* .blob-bg{
-    position:fixed;
+    background-repeat: no-repeat;
     background-image: url(./../assests/blob.svg);
     width: auto;
+    padding-left: 550px;
+    background-position: 645px;
 } */
 ::-webkit-scrollbar {
     width: 20px;
