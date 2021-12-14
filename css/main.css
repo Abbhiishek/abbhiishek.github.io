@@ -771,11 +771,11 @@ p {
 .custom-toggler .navbar-toggler {
     border-color: rgb(59, 130, 246) !important;
 }
-.blob-bg{
+/* .blob-bg{
     position:fixed;
     background-image: url(./../assests/blob.svg);
     width: auto;
-}
+} */
 ::-webkit-scrollbar {
     width: 20px;
   }
