@@ -22,6 +22,7 @@ window.addEventListener("load", () => {
 
   new Typed(".typing", {
     strings: [
+      "",
       "Open-Source Guy",
       "Engineer",
       "Developer",
