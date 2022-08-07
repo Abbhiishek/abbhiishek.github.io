@@ -22,13 +22,13 @@ window.addEventListener("load", () => {
 
   new Typed(".typing", {
     strings: [
-      "Open-Source Evangelist",
+      "Open-Source Guy",
       "Engineer",
       "Developer",
       "UG at JIS UNIVERSITY",
       "Typical Ambivert",
       "Content Writer",
-      "Content Creator",
+      "Google Developer Student Club 2022",
     ],
     loop: true,
     typeSpeed: 35,
